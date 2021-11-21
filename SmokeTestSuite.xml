@@ -1,0 +1,57 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite" parallel="tests" thread-count="1">
+	<listeners>
+		<listener class-name="sfdc.utilities.ListenersUtilities"></listener>
+	</listeners>
+
+	
+	<parameter name="browser name" value="chrome"></parameter>
+	<test name="LoginPage Tests Chrome">
+		<classes>
+			<class name="sfdc.tests.Login">
+			    <methods>
+			     <include name="loginTC01"></include>
+			      <include name="loginTC02"></include>
+			      <include name="loginTC03"></include>
+			    <include name="loginTC04b"></include>
+			    <include name="loginTC04a"></include>
+			    </methods>
+			</class>
+		      <class name="sfdc.tests.Home">
+				<methods>
+					<include name="TC05"></include>
+					<include name="TC06"></include>
+					<include name="TC08"></include>
+					<include name="TC09"></include>
+				</methods>
+			</class>
+			<class name="sfdc.tests.CreateAccount">
+			 <methods>			   
+			    <include name="createAccountTC10"> </include>
+			    <include name="createAccountTC11"> </include>
+			    <include name="createAccountTC12"></include>
+			    <include name="createAccountTC13"></include>
+			   </methods>
+			</class>
+			<class name="sfdc.tests.CreateOpty">
+			<methods>
+			   <include name="createOptyTC15"></include>
+			   <include name="createOptyTC16"></include>
+			   <include name="createOptyTC17"></include>
+			   <include name="createOptyTC18"></include>
+			   <include name="createOptyTC19"></include>
+			</methods>
+			</class>
+			<class name="sfdc.tests.Leads">
+			<methods>
+			  <include name="leadsTC20"></include>
+			  <include name="leadsTC21"></include>
+			  <include name="leadsTC22"></include>
+			  <include name="leadsTC23"></include>
+			</methods>
+			</class>
+			
+		</classes>
+	</test>
+
+</suite>

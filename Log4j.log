@@ -1,0 +1,54 @@
+2021-11-19 16:51:13 INFO  Login 102 - entered initializing
+2021-11-19 16:51:13 INFO  Login 85 - extent html report configured
+2021-11-19 16:51:13 INFO  Login 52 - Chromedriver setup is complete
+2021-11-19 16:51:18 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-19 16:51:18 INFO  Login 140 - username is entered
+2021-11-19 16:51:19 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-19 16:51:22 INFO  Login 178 -  Test case 2 pass
+2021-11-19 16:51:23 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-19 16:51:32 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-19 16:51:33 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-19 16:51:42 INFO  Login 67 - Total time taken: 29006
+2021-11-19 16:51:42 INFO  Login 68 - extent report flushed
+2021-11-19 16:54:07 INFO  Login 102 - entered initializing
+2021-11-19 16:54:07 INFO  Login 85 - extent html report configured
+2021-11-19 16:54:07 INFO  Login 52 - Chromedriver setup is complete
+2021-11-19 16:54:11 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-19 16:54:12 INFO  Login 140 - username is entered
+2021-11-19 16:54:13 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-19 16:54:16 INFO  Login 178 -  Test case 2 pass
+2021-11-19 16:54:19 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-19 16:54:29 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-19 16:54:30 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-19 16:54:35 INFO  Login 67 - Total time taken: 28184
+2021-11-19 16:54:35 INFO  Login 68 - extent report flushed
+2021-11-20 17:12:15 INFO  CreateAccount 102 - entered initializing
+2021-11-20 17:12:15 INFO  CreateAccount 85 - extent html report configured
+2021-11-20 17:12:18 INFO  CreateAccount 52 - Chromedriver setup is complete
+2021-11-20 17:12:23 INFO  CreateOpty 102 - entered initializing
+2021-11-20 17:12:23 INFO  CreateOpty 85 - extent html report configured
+2021-11-20 17:12:23 INFO  CreateOpty 52 - Chromedriver setup is complete
+2021-11-20 17:12:25 INFO  Home 102 - entered initializing
+2021-11-20 17:12:25 INFO  Home 85 - extent html report configured
+2021-11-20 17:12:25 INFO  Home 52 - Chromedriver setup is complete
+2021-11-20 17:12:27 INFO  Leads 102 - entered initializing
+2021-11-20 17:12:27 INFO  Leads 85 - extent html report configured
+2021-11-20 17:12:27 INFO  Leads 52 - Chromedriver setup is complete
+2021-11-20 17:12:30 INFO  Login 102 - entered initializing
+2021-11-20 17:12:30 INFO  Login 85 - extent html report configured
+2021-11-20 17:12:30 INFO  Login 52 - Chromedriver setup is complete
+2021-11-20 17:12:36 INFO  CreateAccount 88 - Launching app: https://login.salesforce.com
+2021-11-20 17:12:38 INFO  CreateOpty 97 - Launching app: https://login.salesforce.com
+2021-11-20 17:12:39 INFO  Home 71 - Launching app: https://login.salesforce.com
+2021-11-20 17:12:49 INFO  Leads 92 - Launching app: https://login.salesforce.com
+2021-11-20 17:12:50 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-20 17:12:50 INFO  Login 140 - username is entered
+2021-11-20 17:12:57 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-20 17:13:12 INFO  Login 178 -  Test case 2 pass
+2021-11-20 17:13:13 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-20 17:13:29 INFO  Login 248 - Test case 4b is passed
+2021-11-20 17:13:29 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-20 17:13:30 INFO  Login 228 - Test case 4a is passed
+2021-11-20 17:13:34 INFO  Login 82 - Launching app: https://login.salesforce.com
+2021-11-20 17:13:46 INFO  CreateAccount 73 - Total time taken: 90085
+2021-11-20 17:13:46 INFO  CreateAccount 74 - extent report flushed

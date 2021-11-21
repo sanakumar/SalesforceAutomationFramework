@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke Test Suite]" parallel="tests">
+  <parameter name="browser name" value="chrome"/>
+  <listeners>
+    <listener class-name="sfdc.utilities.ListenersUtilities"/>
+  </listeners>
+  <test name="LoginPage Tests Chrome(failed)" parallel="tests">
+    <classes>
+      <class name="sfdc.tests.Login">
+        <methods>
+          <include name="initializePageObjects"/>
+          <include name="launchApp"/>
+          <include name="loginTC03"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- sfdc.tests.Login -->
+      <class name="sfdc.tests.CreateOpty">
+        <methods>
+          <include name="createOptyTC18"/>
+          <include name="finishTest"/>
+          <include name="createOptyTC15"/>
+          <include name="setUp"/>
+          <include name="createOptyTC16"/>
+          <include name="createOptyTC17"/>
+          <include name="launchApp"/>
+          <include name="initializePageObjects"/>
+        </methods>
+      </class> <!-- sfdc.tests.CreateOpty -->
+      <class name="sfdc.tests.Home">
+        <methods>
+          <include name="setUp"/>
+          <include name="launchApp"/>
+          <include name="initializePageObjects"/>
+          <include name="TC08"/>
+          <include name="TC09"/>
+          <include name="TC06"/>
+          <include name="TC05"/>
+        </methods>
+      </class> <!-- sfdc.tests.Home -->
+      <class name="sfdc.tests.Leads">
+        <methods>
+          <include name="initializePageObjects"/>
+          <include name="launchApp"/>
+          <include name="setUp"/>
+          <include name="leadsTC21"/>
+          <include name="leadsTC22"/>
+          <include name="leadsTC20"/>
+          <include name="leadsTC23"/>
+        </methods>
+      </class> <!-- sfdc.tests.Leads -->
+      <class name="sfdc.tests.CreateAccount">
+        <methods>
+          <include name="finishTest"/>
+          <include name="createAccountTC13"/>
+          <include name="launchApp"/>
+          <include name="createAccountTC12"/>
+          <include name="initializePageObjects"/>
+          <include name="createAccountTC11"/>
+          <include name="createAccountTC10"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- sfdc.tests.CreateAccount -->
+    </classes>
+  </test> <!-- LoginPage Tests Chrome(failed) -->
+</suite> <!-- Failed suite [Smoke Test Suite] -->
